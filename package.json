@@ -1,8 +1,11 @@
 {
   "name": "css-browser-support",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Query for CSS browser support data, combined from caniuse and MDN, including version support started and global support percentages.",
   "main": "index.js",
+  "scripts": {
+    "bump": "npm --no-git-tag-version version"
+  },
   "keywords": [
     "css",
     "browser-support",

@@ -13,7 +13,7 @@ npm i --save-dev css-browser-support
 Then import it into your project:
 
 ```js
-const { cssBrowserSupport } = require("../css-browser-support");
+const { cssBrowserSupport } = require("css-browser-support");
 ```
 
 And call it by passing a string or an array of strings containing the CSS features you'd like to query support:
@@ -102,7 +102,7 @@ For an example on using this data, see my Eleventy plugin implementation: **@11t
 You can also import the full browser list as `BROWSERS`:
 
 ```js
-const { cssBrowserSupport, BROWSERS } = require("../css-browser-support");
+const { cssBrowserSupport, BROWSERS } = require("css-browser-support");
 ```
 
 <details>
