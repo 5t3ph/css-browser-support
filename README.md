@@ -1,6 +1,6 @@
 # css-browser-support
 
-> Query for **CSS brower support data**, combined from caniuse and MDN, including version support started and global support percentages.
+> Query for **CSS browser support data**, combined from caniuse and MDN, including version support started and global support percentages.
 
 ## Usage
 
