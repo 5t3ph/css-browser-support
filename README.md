@@ -131,5 +131,5 @@ The list is as follows:
 
 Two packages are being used to obtain support data:
 
-- [@mdn/browser-compat-data]()
-- [caniuse-lite]()
+- [@mdn/browser-compat-data](https://www.npmjs.com/package/@mdn/browser-compat-data)
+- [caniuse-lite](https://www.npmjs.com/package/caniuse-lite)
