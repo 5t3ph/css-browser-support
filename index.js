@@ -91,6 +91,10 @@ const cssBrowserSupport = (request) => {
           versionAddedProp = supportBrowser[0].version_added;
         } else if (supportBrowser) {
           versionAddedProp = supportBrowser.version_added;
+
+          if (supportBrowser.flags) {
+            flagged = true;
+          }
         }
 
         // Global usage
